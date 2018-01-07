@@ -12,7 +12,7 @@ UCLASS()
 class RPG_FRAMEWORK_API ARPG_FrameworkGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+	 
 	
 	
 	

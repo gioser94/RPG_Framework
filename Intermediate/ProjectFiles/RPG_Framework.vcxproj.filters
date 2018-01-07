@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RPG_Framework.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{025B2BE5-BD87-4CF9-A083-D9C8172FF36A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RPG_Framework.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RPG_FrameworkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{24187CA5-7F27-4E50-8AE0-8EC903DFEC31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RPG_Framework">
+      <UniqueIdentifier>{EAF1925C-38DD-4C9F-A970-E8C7DBBF2D21}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RPG_Framework\RPG_Framework.Build.cs">
+      <Filter>Source\RPG_Framework</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RPG_Framework\RPG_Framework.cpp">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPG_Framework\RPG_Framework.h">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPG_Framework\RPG_FrameworkGameModeBase.cpp">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPG_Framework\RPG_FrameworkGameModeBase.h">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RPG_Framework\MyActor.h">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RPG_Framework\TestCustomData.h">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RPG_Framework\MyActor.cpp">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RPG_Framework\TestCustomData.cpp">
+      <Filter>Source\RPG_Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

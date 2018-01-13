@@ -2,26 +2,19 @@
 
 #pragma once
 
-#include "GameFramework/Actor.h"
+#include "Object.h"
+//#include "UObject.h"
 #include "ControllableCharacter.generated.h"
 
-UCLASS()
-class RPG_FRAMEWORK_API AControllableCharacter : public AActor
+
+UINTERFACE()
+class RPG_FRAMEWORK_API UControllableCharacter : public UInterface
 {
-	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	AControllableCharacter();
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	
-	
+	GENERATED_UINTERFACE_BODY()
+};
+class RPG_FRAMEWORK_API IControllableCharacter
+{
+	GENERATED_IINTERFACE_BODY()
+		virtual void MoveVertical(float Value);
+	virtual void MoveHorizontal(float Value);
 };

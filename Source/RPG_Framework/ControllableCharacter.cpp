@@ -4,25 +4,14 @@
 #include "ControllableCharacter.h"
 
 
-// Sets default values
-AControllableCharacter::AControllableCharacter()
+UControllableCharacter::UControllableCharacter(const class
+	FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
 }
-
-// Called when the game starts or when spawned
-void AControllableCharacter::BeginPlay()
+void IControllableCharacter::MoveVertical(float Value)
 {
-	Super::BeginPlay();
-	
 }
-
-// Called every frame
-void AControllableCharacter::Tick(float DeltaTime)
+void IControllableCharacter::MoveHorizontal(float Value)
 {
-	Super::Tick(DeltaTime);
-
 }
-

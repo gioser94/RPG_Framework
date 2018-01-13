@@ -13398,6 +13398,10 @@
 		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\MikkTSpace\ComputingTangentSpace.tps" />
 		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\MikkTSpace\MikkTSpace.build.cs" />
 		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\MikkTSpace\MikkTSpace.tps" />
+		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\NVaftermath\Aftermath.tps" />
+		<ClInclude Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\NVaftermath\defines.h" />
+		<ClInclude Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\NVaftermath\GFSDK_Aftermath.h" />
+		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\NVaftermath\NVaftermath.Build.cs" />
 		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\nvapi\NVAPI.Build.cs" />
 		<ClInclude Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\nvapi\nvapi.h" />
 		<None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.15\Engine\Source\ThirdParty\NVIDIA\nvapi\NVAPI.tps" />

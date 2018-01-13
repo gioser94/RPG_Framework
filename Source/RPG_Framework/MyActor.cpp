@@ -2,6 +2,7 @@
 
 #include "RPG_Framework.h"
 #include "MyActor.h"
+#include "TestCustomData.h"
 
 
 // Sets default values
@@ -18,6 +19,15 @@ void AMyActor::BeginPlay()
 	Super::BeginPlay();
 
 	UE_LOG(LogTemp, Warning, TEXT("Hello, world"));
+
+	if (DataTable != NULL)
+	{
+		FTestCustomData *row = DataTable->FindRow<FTestCustomData>(TEXT("1"), TEXT("LookupTestCustomData"));
+		FString someString = row->Str;
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *someString);
+
+	}
+
 	
 }
 

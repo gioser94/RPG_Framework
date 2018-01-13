@@ -9,6 +9,10 @@ UCLASS()
 class RPG_FRAMEWORK_API AMyActor : public AActor
 {
 	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "My New Actor")
+	UDataTable *DataTable;
 	
 public:	
 	// Sets default values for this actor's properties
